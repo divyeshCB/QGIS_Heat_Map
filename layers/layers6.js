@@ -21,7 +21,7 @@ jsonSource_Week_13_20_Jan_TruckData_1.addFeatures(features_Week_13_20_Jan_TruckD
 var lyr_Week_13_20_Jan_TruckData_1 = new ol.layer.Heatmap({
                 declutter: false,
                 source:jsonSource_Week_13_20_Jan_TruckData_1, 
-                radius: 2 * 2,
+                radius: 3 * 2,
                 gradient:['#000080',  
                     '#002aff',  
                     '#0094ff',  
