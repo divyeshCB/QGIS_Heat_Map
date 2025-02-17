@@ -37,7 +37,7 @@ var lyr_Week_13_20_Jan_TruckData_1 = new ol.layer.Heatmap({
     weight: function(feature){
         var weightField = 'Increased_FUEL_RATE';
         var featureWeight = feature.get(weightField);
-        var maxWeight = 697;
+        var maxWeight = 1000;
         var calibratedWeight = featureWeight/maxWeight;
         return calibratedWeight;
     },
